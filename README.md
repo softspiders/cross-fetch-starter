@@ -9,7 +9,6 @@
 - browser
 - cross-fetch
 - isomorphic
-- jest
 - starter
 - template
 
@@ -18,7 +17,6 @@
 ## Authors
 
 - [AndreyChapkin](https://github.com/AndreyChapkin)
-- [Alexander Lapygin](https://github.com/AlexanderLapygin)  <<alexanderlapygin@gmail.com>>
 
 ---
 

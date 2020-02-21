@@ -12,12 +12,11 @@
     "cross-fetch",
     "express",
     "isomorphic",
-    "jest",
     "softspiders",
     "starter",
     "template"
   ],
-  "author": "AndreyChapkin (https://github.com/AndreyChapkin), Alexander Lapygin (https://github.com/AlexanderLapygin)",
+  "author": "AndreyChapkin (https://github.com/AndreyChapkin)",
   "license": "MIT",
   "dependencies": {
     "express": "latest",
