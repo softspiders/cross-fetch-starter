@@ -2,13 +2,14 @@
 
 # cross-fetch-starter
 
-UNDER DEVELOPMENT
-
 ---
 
 ## Feature tags
 
+- browser
 - cross-fetch
+- isomorphic
+- jest
 - starter
 - template
 
@@ -16,7 +17,8 @@ UNDER DEVELOPMENT
 
 ## Authors
 
-[AndreyChapkin](https://github.com/AndreyChapkin)
+- [AndreyChapkin](https://github.com/AndreyChapkin)
+- [Alexander Lapygin](https://github.com/AlexanderLapygin)  <<alexanderlapygin@gmail.com>>
 
 ---
 
@@ -28,12 +30,33 @@ npm i
 
 ---
 
-## Run
+## Run in browser
 
-TBD
+Open *index.html* with your browser. In browser console execute:
+```
+if (isBrowser) fetch('https://jsonplaceholder.typicode.com/posts/1')
+                    .then(response => response.json())
+                    .then(json => console.log(JSON.stringify(json)))
+```
+See the results in the console.
+
+## Running integration tests
+
+In first command prompt run server: 
+```
+npm run start:server
+```
+In second command prompt run tests:
+```
+npm run test
+```
+In console you should see:
+```
+PASS  ./scripts.test.js
+  √ Test isomorphic fetch function: http://localhost:3000/api (31ms)
+```
 
 ---
-
 ### License
 
 Licensed under the [MIT license](./LICENSE).

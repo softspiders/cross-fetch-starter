@@ -4,8 +4,8 @@
   "description": "rest-client-jest-starter",
   "main": "scripts.js",
   "scripts": {
-    "test": "jest",
-    "start:server": "node server.js"
+    "start:server": "node server.js",
+    "test": "jest"
   },
   "keywords": [
     "browser",
@@ -13,12 +13,11 @@
     "express",
     "isomorphic",
     "jest",
-    "rest",
     "softspiders",
     "starter",
     "template"
   ],
-  "author": "Danila Asoyan (https://github.com/Danilkashtan), Alexander Lapygin (https://github.com/AlexanderLapygin)",
+  "author": "AndreyChapkin (https://github.com/AndreyChapkin), Alexander Lapygin (https://github.com/AlexanderLapygin)",
   "license": "MIT",
   "dependencies": {
     "express": "latest",
