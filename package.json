@@ -1,0 +1,27 @@
+{
+  "name": "rest-client-jest-starter",
+  "version": "1.0.0",
+  "description": "rest-client-jest-starter",
+  "main": "scripts.js",
+  "scripts": {
+    "start:server": "node server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "browser",
+    "cross-fetch",
+    "express",
+    "isomorphic",
+    "jest",
+    "softspiders",
+    "starter",
+    "template"
+  ],
+  "author": "AndreyChapkin (https://github.com/AndreyChapkin), Alexander Lapygin (https://github.com/AlexanderLapygin)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "latest",
+    "cross-fetch": "latest",
+    "jest": "latest"
+  }
+}
